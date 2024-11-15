@@ -5,7 +5,7 @@ mkdir -p ../bin
 
 cFilenames=$(find . -type f -name "*.c")
 
-assembly="testbed"
+assembly="testbuild"
 compilerFlags="-g -fdeclspec -fPIC"
 
 includeFlags="-Isrc -I../engine/src/"
